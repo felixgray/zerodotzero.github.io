@@ -3,7 +3,7 @@ body {
 }
 
 .spaced-container {
-    height: var(--viewport-height, 100vh);
+    height: var(--viewport-height, 98vh);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -20,7 +20,7 @@ body {
 .zerodotzero,
 .numbering {
     overflow-wrap: break-word;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-weight: 700;
     font-size: 36px;
     color: black;
@@ -84,7 +84,7 @@ h1 {
 .links {
     display: inline-block;
     overflow-wrap: break-word;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size: 12px;
     padding: 0;
@@ -92,9 +92,10 @@ h1 {
 }
 
 .concept {
-    text-align: left;
+    text-align: justify;
     text-justify: inter-word;
     margin-top: -0.2em;
+    text-transform: uppercase;
 }
 
 .footercontainer {
@@ -111,7 +112,7 @@ h1 {
 
 .copyright {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 8px;
+    font-size: 10px;
     margin-top: -11.5px;
     color: black;
 }
